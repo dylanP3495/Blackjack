@@ -13,6 +13,7 @@ public class run
        hand dealer = new hand();
        hand player = new hand();
        
+       System.out.println(" You draw a " + player.getCard1() +"and a " + player.getCard2() + ".");
     }
     
 }
