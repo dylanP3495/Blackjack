@@ -10,21 +10,31 @@ import java.util.Scanner;
 import java.lang.Math;
 public class hand
 {
-    int randomNum =((int)(Math.random() * 9)+2);
-    public int startHand = randomNum;
-    public void playerHand(){
+    private int card1;
+    private int card2;
+    private int total;
 
+    public hand(){
+        card1 = getRandNum();
+        card2 = getRandNum();
+        total = (card1 + card2);
     }
 
-    public void dealerHand(){
-
+    public int getRandNum(){
+        int randomNum =((int)(Math.random() * 9)+2);
+        total += randomNum;
+        return randomNum;
     }
 
-    public void setHit(){
-
+    public int getCard1(){
+        return card1;
     }
 
-    public void setStay(){
+    public int getCard2(){
+        return card2;
+    }
 
+    public int getTotal(){
+        return total;
     }
 }

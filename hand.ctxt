@@ -1,10 +1,12 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ playerHand()
+comment0.target=hand()
 comment1.params=
-comment1.target=void\ dealerHand()
+comment1.target=int\ getRandNum()
 comment2.params=
-comment2.target=void\ setHit()
+comment2.target=int\ getCard1()
 comment3.params=
-comment3.target=void\ setStay()
-numComments=4
+comment3.target=int\ getCard2()
+comment4.params=
+comment4.target=int\ getTotal()
+numComments=5
