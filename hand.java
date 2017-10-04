@@ -37,4 +37,8 @@ public class hand
     public int getTotal(){
         return total;
     }
+    
+    public boolean check(){
+        return total ==21;
+    }
 }

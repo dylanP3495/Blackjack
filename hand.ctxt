@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=int\ getCard2()
 comment4.params=
 comment4.target=int\ getTotal()
-numComments=5
+comment5.params=
+comment5.target=boolean\ check()
+numComments=6
